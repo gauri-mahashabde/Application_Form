@@ -2,7 +2,10 @@ import React from 'react'
 
 function Gender() {
   return (
-    <div>Gender</div>
+    <div className="gender1">
+          <input className="gender" type="radio" name="Gender" />Female
+          <input className="gender" type="radio" name="Gender" />Male
+        </div>
   )
 }
 

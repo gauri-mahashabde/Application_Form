@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Cv() {
   return (
-    <div>Cv</div>
-  )
+    <div>
+      <input className="Cv" type="file" name="Cv" placeholder="Cvs" />
+    </div>
+  );
 }
 
 export default Cv;

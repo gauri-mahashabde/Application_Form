@@ -2,7 +2,15 @@ import React from 'react'
 
 function Country() {
   return (
-    <div>Country</div>
+    <div>
+     <select className="country" type="text" placeholder="Select country">
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+            <option value="Russia">Russia</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Iran">Iran</option>
+            <option value="Iraq">Iraq</option></select>
+        </div>
   )
 }
 
