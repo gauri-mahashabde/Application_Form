@@ -1,11 +1,15 @@
 import React from 'react'
 
 function Designation() {
+  function changeD(e){
+    console.log(e.value.target);
+  }
   return (
     <div><select
     className="position"
     type="text"
     placeholder="choose desired Position"
+    onSelect={changeD}
   >
     <option value="Software Engineer">Software Engineer</option>
     <option value="SDE">SDE</option>

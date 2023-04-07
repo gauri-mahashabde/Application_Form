@@ -1,9 +1,12 @@
 import React from "react";
 
 function Cv() {
+  function changeFile(e){
+    console.log(e.value.target);
+  }
   return (
     <div>
-      <input className="Cv" type="file" name="Cv" placeholder="Cvs" />
+      <input className="Cv" type="file" name="Cv" placeholder="Cvs" onSelect={changeFile} />
     </div>
   );
 }

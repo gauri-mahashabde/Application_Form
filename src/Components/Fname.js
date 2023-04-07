@@ -1,10 +1,14 @@
 import React from "react";
 
 function Fname() {
+  function firstName(e){
+    console.log(e.target.value);
+  }
+  
   return (
     <>
-      <input className="fname" type="text" name="Fname" placeholder="First Name"/>
-      <input className="lname" type="text" name="Lname" placeholder="Last Name" />
+      <input className="fname" type="text" name="Fname" placeholder="First Name" onChange={firstName}/>
+      <input className="lname" type="text" name="Lname" placeholder="Last Name" onChange={firstName}/>
       
     </>
   );

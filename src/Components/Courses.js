@@ -1,8 +1,11 @@
 import React from 'react'
 
 function Courses() {
+  function changeCourses(e){
+    console.log(e.value.target);
+  }
   return (
-    <div><div className="options">
+    <div><div className="options" onChange={changeCourses}>
     Select courses<br/>
     <input type="checkbox" name="course1" value="HTML"/>HTML<br/>
     <input type="checkbox" name="course2" value="CSS"/>CSS<br/>
