@@ -2,7 +2,7 @@ import React from "react";
 
 function City() {
   function changeCity(e){
-    console.log(e.value.target);
+    console.log(e.target.value);
   }
   return (
     <div>

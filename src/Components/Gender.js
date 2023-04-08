@@ -2,7 +2,7 @@ import React from 'react'
 
 function Gender() {
   function changeGender(e){
-    console.log(e.value.target);
+    console.log(e.target.value);
   }
   return (
     <div className="gender1">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Cv() {
   function changeFile(e){
-    console.log(e.value.target);
+    console.log(e.target.value);
   }
   return (
     <div>

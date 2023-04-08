@@ -2,7 +2,7 @@ import React from 'react'
 
 function Designation() {
   function changeD(e){
-    console.log(e.value.target);
+    console.log(e.target.value);
   }
   return (
     <div><select

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Courses() {
   function changeCourses(e){
-    console.log(e.value.target);
+    console.log(e.target.value);
   }
   return (
     <div><div className="options" onChange={changeCourses}>
