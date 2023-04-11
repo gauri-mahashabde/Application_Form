@@ -1,9 +1,14 @@
-import React from "react";
+import React,{useState} from "react";
+
+  
 
 function Fname() {
   function firstName(e){
     console.log(e.target.value);
   }
+
+  
+
   
   return (
     <>
